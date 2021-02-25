@@ -1,0 +1,8 @@
+<div class="input-field col s6">
+    <input type="text"  [(ngModel)]="searchStr">
+    <label>Поиск по имени</label>
+</div>
+
+<div class="row" *ngFor="let u of users | search: searchStr" [user]="u">
+    {{u}}
+</div>

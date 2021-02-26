@@ -6,11 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mod1.component.css']
 })
 export class Mod1Component implements OnInit {
-
   users = ['Максим','Саша','Катя','Лена'];
-  myControl: '';
-  searchStr: '';
-
 
   constructor() { }
 
